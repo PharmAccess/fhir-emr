@@ -1,0 +1,22 @@
+//devcontainer.json
+{
+    "name": "Node.js",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+  
+    "customizations": {
+      "vscode": {
+        "settings": {
+            "git.confirmSync": false,
+            "git.autofetch": true,
+            "files.eol": "\n"
+        },
+        "extensions": [
+            "streetsidesoftware.code-spell-checker",
+            "eamodio.gitlens",
+			"GitHub.vscode-pull-request-github",
+            "esbenp.prettier-vscode"
+        ]
+      }
+    }
+  }
+  
