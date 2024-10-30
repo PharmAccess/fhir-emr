@@ -1,0 +1,8 @@
+version: "3"
+
+tasks:
+  deps:
+    cmds:
+      - cp contrib/emr-config/config.local.js contrib/emr-config/config.js
+      - yarn
+      - yarn compile  
